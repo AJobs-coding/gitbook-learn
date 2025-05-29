@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   check-bats-version:
-    runs-on: ajobs gitbook macos x64
+    runs-on: ajobs gitbook macos x64 01
     steps:
       - uses: actions/checkout@v4
-      - run: touch ajobsLearn.txt
+      - run: touch ajobsLearn-02.txt
